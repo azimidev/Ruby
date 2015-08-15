@@ -5,6 +5,11 @@ describe Car do
 
 	it_behaves_like('a standard vehicle')
 
+	# describe "allows reading and writing for :doors" do
+	# 	subject.doors = 1
+	# 	expect(subject.door).to eq(1)
+	# end
+
 	describe '.colors' do
 
 		let(:colors) { ['blue', 'black', 'red', 'green'] }
